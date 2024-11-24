@@ -8,10 +8,10 @@ terraform {
 }
 
 provider "github" {
-  token = Srikanth
+  token = var.Srikanth
 }
 
-resource "github_repository" "example" {
+resource "github_repository" "Devops project 2023188027" {
   name        = "Devops project 2023188027"
   visibility  = "public"
 }
