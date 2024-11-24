@@ -8,7 +8,7 @@ terraform {
 }
 
 provider "github" {
-  token = var.Srikanth
+  token = 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
 }
 
 resource "github_repository" "devops_project_2023188027" {
