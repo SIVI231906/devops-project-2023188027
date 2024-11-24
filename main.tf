@@ -11,7 +11,9 @@ provider "github" {
   token = var.Srikanth
 }
 
-resource "github_repository" "Devops project 2023188027" {
-  name        = "Devops project 2023188027"
+resource "github_repository" "devops_project_2023188027" {
+  name        = "devops-project-2023188027"
+  description = "A Terraform-managed DevOps project"
   visibility  = "public"
 }
+
