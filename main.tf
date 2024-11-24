@@ -8,11 +8,10 @@ terraform {
 }
 
 provider "github" {
-  token = var.github_token
+  token = Srikanth
 }
 
 resource "github_repository" "example" {
-  name        = "example-repo"
-  description = "A Terraform-managed repository"
+  name        = "Devops project 2023188027"
   visibility  = "public"
 }
