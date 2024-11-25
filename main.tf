@@ -9,7 +9,6 @@ terraform {
 
 variable "github_token" {
   description = "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" 
-  type        = string
   sensitive   = true
 }
 
